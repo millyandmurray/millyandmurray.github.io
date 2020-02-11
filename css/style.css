@@ -47,7 +47,7 @@
 }
 
 .center-aboutyou {
-	background-color: lightgrey;
+	background-color: greenyellow;
 }
 
 .title-aboutyou {
@@ -55,15 +55,15 @@
 }
 
 .left-aboutyou {
-	background-color: lightpink;
+	background-color: hotpink;
 }
 
 .right-aboutyou {
-	background-color: lightpink;
+	background-color: hotpink;
 }
 
 .center-aboutyourow2 {
-	background-color: lightgrey;
+	background-color: whitesmoke;
 	height: 700px;
 }
 
@@ -76,34 +76,42 @@
 }
 
 .giphy {
-	text-align: center;
+	text-align:center;
 }
 
 .aboutus{
-	font-family: 'Caveat', cursive;
+	font-family: 'Nunito', sans-serif;
+}
+
+.row1-aboutyou {
+	height: 520px;
 }
 
 .row1-aboutus{
-	background-color:lightgrey;
+	background-color:darkgoldenrod;
 }
 
+.row2-aboutus{
+	/*height: 1000px;*/
+}
 
 .left-aboutusrow2{
-	background-color: lightblue;
+	background-color: wheat;
+	/*height: auto;*/
 }
 .left-aboutusrow3{
-	background-color: lightpink;
+	background-color: aliceblue;
 }
 
 .right-aboutusrow2{
-	background-color: lightpink;
+	background-color: wheat;
 }
 .right-aboutusrow3{
-	background-color: lightblue;
+	background-color: aliceblue;
 }
 
 .title-aboutus{
-	text-align: center;
+	margin:auto;
 }
 
 .imgmurray{
@@ -111,7 +119,90 @@
 	height: auto;
 }
 
+.imgmilly{
+	width:600px;
+	height:auto;
+}
+
+.flowchart_fluid {
+	max-width:720px;
+	height:auto;
+	margin:auto;
+}
+
+.flowchart_fluid_center {
+	text-align:center;
+}
+
+.button_aboutyou {
+	text-align:center;
+}
+
+.redemption{
+	font-family: 'Nunito', sans-serif;
+}
+
+
+.left-redemption{
+	background-color: lightpink;
+}
+
+.center-redemption{
+	background-color: lightpink;
+	text-align: center;
+}
+
+.right-redemption{
+	background-color: lightpink;
+}
+
+.row1-redemption{
+	height: 80px;
+}
+
+.row2-redemption{
+	height: 600px;
+}
+
+.img-redemption{
+	padding-top: 100px;
+}
+
+#cf {
+  /*position:relative;*/
+  min-width:100%;
+  margin:0 auto;
+}
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+#cf img.top:hover {
+  opacity:0;
+}
+
+.transition-photo{
+	max-width:100%;
+	max-height: 100%;
+	text-align: center;
+	/*height: 100px;*/
+}
+
+.aboutusrow {
+	height:100vh;
+}
+
+.transition-murray {
+	margin:auto;
+}
+
+
 
 /*font-family: 'Russo One', sans-serif;
+font-family: 'Nunito', sans-serif;
 font-family: 'Caveat', cursive;
 font-family: 'Barlow Semi Condensed', sans-serif;*/
