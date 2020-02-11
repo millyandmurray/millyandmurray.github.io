@@ -1,0 +1,117 @@
+.left-col{
+	background-color:white;
+}
+.mid-col{
+	background-color:white;
+}
+.right-col{
+	background-color:white;
+}
+
+.row1{
+	height:220px;
+}
+
+.row2{
+	height:220px;
+}
+.row3{
+	height:220px;
+}
+.title{
+	font-size:50px;
+	text-align: center;
+	font-family:Impact,Charcoal,sans-serif;
+	vertical-align: middle;
+	padding-top:18px;
+	margin:auto;
+}
+
+.subtitle {
+	text-align:center;
+	vertical-align: middle;
+	padding:7%;
+}
+
+.img-fluid{
+	width: 100%;
+	height: 200px;
+}
+
+.navbarrow{
+	height:35px;
+}
+
+.navbar-nav{
+	margin:auto;
+}
+
+.center-aboutyou {
+	background-color: lightgrey;
+}
+
+.title-aboutyou {
+	text-align:center;
+}
+
+.left-aboutyou {
+	background-color: lightpink;
+}
+
+.right-aboutyou {
+	background-color: lightpink;
+}
+
+.center-aboutyourow2 {
+	background-color: lightgrey;
+	height: 700px;
+}
+
+.index {
+	font-family: 'Russe One', sans-serif;
+}
+
+.aboutyou {
+	font-family:'Barlow Semi Condensed', sans-serif;
+}
+
+.giphy {
+	text-align: center;
+}
+
+.aboutus{
+	font-family: 'Caveat', cursive;
+}
+
+.row1-aboutus{
+	background-color:lightgrey;
+}
+
+
+.left-aboutusrow2{
+	background-color: lightblue;
+}
+.left-aboutusrow3{
+	background-color: lightpink;
+}
+
+.right-aboutusrow2{
+	background-color: lightpink;
+}
+.right-aboutusrow3{
+	background-color: lightblue;
+}
+
+.title-aboutus{
+	text-align: center;
+}
+
+.imgmurray{
+	width: 600px;
+	height: auto;
+}
+
+
+/*font-family: 'Russo One', sans-serif;
+font-family: 'Caveat', cursive;
+font-family: 'Barlow Semi Condensed', sans-serif;*/
