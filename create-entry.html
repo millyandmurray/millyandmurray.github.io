@@ -12,6 +12,11 @@
   </style>
 </head>
 <body>
+
+
+
+
+  
   <nav>
     <a href="index.html">Home</a>
     <a href="#">Create entry</a>
@@ -38,6 +43,17 @@
     <br/>
     <input type="submit" value="Save">
   </form>
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 
@@ -63,9 +79,10 @@
     })
     .then(r => r.json())
     .then(res => {
-      if (res.id) {
+      if (res.unique_id) {
+        document.querySelector('#success-msg').innerHTML = `<p>${res.message}</p>`
         document.querySelector('#success-msg').classList.remove('hidden');
-        document.querySelector('#new-entry-link').setAttribute('href', `/single-entry.html?id=${res.id}`);
+        // document.querySelector('#new-entry-link').setAttribute('href', `/single-entry.html?id=${res.id}`);
       }
     })
   });

@@ -50,9 +50,17 @@
 	background-color: greenyellow;
 }
 
-.title-aboutyou {
+.title-redemption {
 	text-align:center;
 	vertical-align: center;
+	font-size:300%;
+	padding-top: 15px;
+	color: white;
+
+}
+
+.title-aboutyou2 {
+	font-size: 150%;
 }
 
 .left-aboutyou {
@@ -65,7 +73,8 @@
 
 .center-aboutyourow2 {
 	background-color: whitesmoke;
-	height: 700px;
+	height: 1050px;
+	font-size: 150%;
 }
 
 .index {
@@ -98,6 +107,7 @@
 
 .left-aboutusrow2{
 	background-color: wheat;
+	font-size:110%;
 	/*height: auto;*/
 }
 .left-aboutusrow3{
@@ -106,6 +116,7 @@
 
 .right-aboutusrow2{
 	background-color: wheat;
+	font-size: 110%;
 }
 .right-aboutusrow3{
 	background-color: aliceblue;
@@ -113,6 +124,7 @@
 
 .title-aboutus{
 	margin:auto;
+	font-size: 350%;
 }
 
 .imgmurray{
@@ -125,6 +137,12 @@
 	height:auto;
 }
 
+.button-aboutus {
+	background-color: green;
+	font-size: 100%;
+	color:white;
+}
+
 .flowchart_fluid {
 	max-width:720px;
 	height:auto;
@@ -135,26 +153,51 @@
 	text-align:center;
 }
 
-.button_aboutyou {
+.button-redemption {
 	text-align:center;
+	background-color: hotpink;
+	font-size: 200%;
+	color:white;
+}
+
+.about-you-button {
+	background-color: hotpink;
+	font-size: 200%;
+	color:white;
 }
 
 .redemption{
 	font-family: 'Nunito', sans-serif;
 }
 
+.row1-redemption {
+	background-color:#034f84;
+}
+
+/*.left-top-redemption {
+	bac
+}
+
+.center-top-redemption {
+
+}
+
+.right-top-redemption {
+
+}*/
 
 .left-redemption{
-	background-color: lightpink;
+	background-color: #d64161;
 }
 
 .center-redemption{
-	background-color: lightpink;
+	background-color: #deeaee;
 	text-align: center;
+	font-size: 150%
 }
 
 .right-redemption{
-	background-color: lightpink;
+	background-color: #d64161;
 }
 
 .row1-redemption{
@@ -166,7 +209,7 @@
 }
 
 .img-redemption{
-	padding-top: 100px;
+	padding-top: 20px;
 }
 
 #cf {
