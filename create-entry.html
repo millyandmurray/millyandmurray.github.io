@@ -10,49 +10,96 @@
       display: none;
     }
   </style>
+  <title></title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Caveat|Russo+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src=""></script>
+  <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+
+<!-- animate -->
+  <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
 </head>
+
+
 <body>
 
+<!-- navbar: -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbarrow">
+          
 
 
+        <!-- grey bar creted -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
-  
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="#">Create entry</a>
-  </nav>
-  <h1>Create diary entry</h1>
-  <div id="success-msg" class="hidden" style="color: teal">Entry created - <a href="/" id="new-entry-link">view</a></div>
-  <form id="diary-form" action="#">
-    <label for="title">Entry title:</label>
-    <input type="text" name="title">
-    <br/>
-    <label for="description">Gratitude theme:</label>
 
-<!-- have changed 'entry text' to 'Gratitude theme' -->
+<!-- naming the nav bar -->
+
+          <div class="navbar-nav">
+              <a class="nav-item nav-link" href="index.html" target="_blank">Home</a>  
+            </div>
+
+          <div class="navbar-nav">
+              <a class="nav-item nav-link" href="aboutyou.html" target="_blank">About You</a>  
+            </div>
+
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="aboutus.html" target="_blank">About us</a>  
+            </div>
+
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="redemption.html" target="_blank">Redemption</a>  
+            </div>
+          </div>
+        </nav>
+      </div>
+
+
+  <!-- end of nav bar -->
+
+<div class="container create-entry-container">
+  <div class="row1 create-entry-row">
+
+    <h1 class="create-diary-entry">Create diary entry if you really must</h1>
+      <div class = "form-creation">
+        <div id="success-msg" class="hidden response-message" style="color: red">
+          Entry created - <a href="/" id="new-entry-link">view</a>
+        </div>
+        <br>
+          <form id="diary-form" action="#">
+          <label for="title">Gratitude:</label>
+          <input type="text" name="title">
+        <br>
+        <br>
+          <label for="description">Theme:</label>
+          <!-- have changed 'entry text' to 'Gratitude theme' -->
 <!-- have pasted the below code from W3 -->
 
-<select id="Gratitude">
-  <option value="Myself">Myself</option>
-  <option value="Family">Family</option>
-  <option value="Friends">Friends</option>
-  <option value="Work">Work</option>
-</select><!-- 
+          <select id="Gratitude">
+            <option value="Myself">Myself</option>
+            <option value="Family">Family</option>
+            <option value="Friends">Friends</option>
+            <option value="Work">Work</option>
+          </select>
 
-    <textarea name="description"></textarea> -->
-    <br/>
-    <input type="submit" value="Save">
-  </form>
-
-
-
-
-
+          <!-- <textarea name="description"></textarea> -->
+            <br>
+             <br>
+              <input class="animated infinite heartBeat submitbutton" type="submit" value="Dont do it!!">
+        <br>
+        <br>
+      </form>
 
 
 
-
-
+  </div>
+</div>
 
 </body>
 

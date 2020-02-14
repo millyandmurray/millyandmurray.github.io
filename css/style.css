@@ -23,14 +23,21 @@
 	text-align: center;
 	font-family:Impact,Charcoal,sans-serif;
 	vertical-align: middle;
-	padding-top:18px;
+	padding-bottom:10px;
+	padding-top:10px;
 	margin:auto;
 }
 
 .subtitle {
 	text-align:center;
 	vertical-align: middle;
-	padding:7%;
+}
+
+.sub-subtitle {
+	font-size: 95%;
+	text-align:center;
+	padding: 3%;
+	color: crimson;
 }
 
 .img-fluid{
@@ -60,7 +67,8 @@
 }
 
 .title-aboutyou2 {
-	font-size: 150%;
+	font-size: 350%;
+	text-align: center;
 }
 
 .left-aboutyou {
@@ -155,15 +163,23 @@
 
 .button-redemption {
 	text-align:center;
-	background-color: hotpink;
-	font-size: 200%;
+	font-size: 100%;
 	color:white;
 }
 
 .about-you-button {
 	background-color: hotpink;
-	font-size: 200%;
+	font-size: 130%;
 	color:white;
+	text-align: center;
+}
+
+.aboutyoubuttondiv{
+	text-align: center;
+}
+
+.heartBeat {
+	background-color: yellow;
 }
 
 .redemption{
@@ -240,11 +256,33 @@
 	height:100vh;
 }
 
+
 .transition-murray {
 	margin:auto;
 }
 
+.create-diary-entry {
+	text-align: center;
+	border-style: solid;
+	border-radius: 2px;
+	height: 150px;
+	padding: 50px;
+}
 
+.form-creation{
+	text-align: center;
+	font-size: 220%;
+}
+
+.response-message{
+	font-family: 'Lacquer', sans-serif;
+	font-size: 150%;
+}
+
+.submitbutton{
+	background-color: red;
+	color: white;
+}
 
 /*font-family: 'Russo One', sans-serif;
 font-family: 'Nunito', sans-serif;
